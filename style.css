@@ -9,7 +9,15 @@ body{
     font-size: 1.4rem;
     line-height:1.6;
 }
-
+.menu{
+    justify-content: center;
+    position: absolute;
+    margin-bottom:600px ;
+    height: 60px;
+    font-style: bold;
+    width:50px;
+   
+}
 
 .row{
     width:80%;
@@ -139,7 +147,7 @@ color:white;
 .comingsoon .coming-soon-form
 {
 text-align: center;
-
+justify-content: center;
 }
 
 .comingsoon .coming-soon-heading{
@@ -170,7 +178,7 @@ font-size: 1.3rem;
     display: flex;
 }
 .input-container .text-input,
-.input-container .form-button
+.input-container .form-button 
 {
 padding:12px 15px;
 border:unset;
@@ -181,6 +189,15 @@ border-radius:15px;
     background-color: black;
     color:white;
     cursor:pointer;
+}
+.form-button-btn{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+    padding:12px 15px;
+    border:unset;
+    border-radius:15px;
+    margin-top:15px;
 }
 
 .layout{
@@ -222,15 +239,26 @@ height:350px;
     align-items: center;
     justify-content: center;
    font-family: 'playfair display', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
 
 }
-
+ .p-text{
+    font-size:2.5rem;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    color:#E8C8C2;
+    font-family: 'Monsieur La Doulaise', cursive;
+  
+}
 .springcoll{
  background-color: #e9b1b3;
 padding:50px 0;
 color:white;
 text-align: center;
 font-style: italic;
+font-size:4rem ;
 
 }
 
@@ -249,7 +277,7 @@ font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom:30px ;
+    margin-bottom:90px ;
 }
 
 
@@ -267,14 +295,21 @@ font-style: italic;
 }
 
 
-.sample-product{
+.arrow-right{
+   justify-content: center;
+   position: absolute;
+   margin-top:250px ;
+
+    }
+
+ .sample-product{
     display:flex;
     justify-content: center;
     gap:0.9rem ;
   
 }
 
-.sample-pics{
+.sample-pics .sample-text{
     background-repeat: no-repeat;
     width:20%;
     height:450px;
@@ -289,17 +324,31 @@ font-style: italic;
 }
 
 
-.sample-text { 
-    width: 30%;
-    margin-top: 1.9rem;
-    padding-left: 1.3rem;
-    font-family: 'open sans', sans-serif;
-} 
-
+.sample-pics{
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+    gap:0.9rem;
+    width:40%;
+    float: left;
+    justify-content: center;
+    margin-right:40px;
+    padding:30px;
+    height:350px;
+}
 
 .sample-text h1 { 
     padding-right:18rem;
     font-size: 1.5rem;
+    display: block;
+    margin-top:20px;
+    margin-bottom: 15px;
 }
 
 .sample-text h2{ 
@@ -313,23 +362,41 @@ font-style: italic;
 }
 
 
-
 .subscribe-section{ 
     display: flex;
 }
 
+.horn{
+    width:70%;
+     margin-top: 20px;
+    height: 10px;
+    transform-origin:center;
+    margin:100px;
+    border-color: #f7d7c8;
+    border-style: solid;
+    position: relative;
+    display: block;
+    background-color: #f7d7c8;
+   
+}
+
+.big-text{
+    color:black;
+    font-style: italic;
+    margin-bottom:10px;
+    font-size:4rem;
+}
 
 .sub-img{
-    width: 50%;
-    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    height: 100vh;
     background-image: url(./img/subscribe.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-
 
 .subscribe{ 
     width: 50%;
@@ -341,17 +408,23 @@ font-style: italic;
 
 .subscribe-form{ 
     padding: 1.2rem;
+    
 }
 
 .subscribe-form .subscribe-inputs input:last-child{ 
     margin-left: 0.8rem;
+   
 }
 
 .subscribe-form .subscribe-inputs input{ 
     padding: 1.3rem 3.5rem;
     border: 1px solid rgb(211, 205, 205);
+  
 }
 
 .subscribe-text{ 
     padding: 1rem;
+    font-size:3px;
+  
 }
+
